@@ -1,6 +1,6 @@
 
 
-var vm = function () {
+var mm = function () {
     var self = this;
     self.descriptionToAdd = ko.observable("");
     self.tag = ko.observable("");
@@ -87,5 +87,5 @@ var vm = function () {
 }
 
 $(document).ready(function () {
-    ko.applyBindings(new vm());
+    ko.applyBindings(new mm());
 })
