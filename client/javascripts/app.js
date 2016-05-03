@@ -43,7 +43,7 @@ var mm = function () {
         })
 
         if (selectedTab.name == "Oldest") {
-            if (self.reversed == true) {
+            if (self.reversed == true) { 
                 self.list.reverse(); 
                 self.reversed = false
             }
